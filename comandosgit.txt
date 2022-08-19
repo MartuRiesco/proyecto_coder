@@ -1,0 +1,20 @@
+git status corrobora el estado de los cambios
+git add . agrega todos los cambios
+git commit -m "" genera el punto de guardado
+git log corrobora la lista de commit
+git push -u origin "nombre de rama" sube el archivo a github
+
+
+
+
+RAMAS
+git branch "nombre de la rama" crea rama nueva
+git branch -M "nuevo nombre de la rama" cmbia el nombre de la rama donde estoy
+git checkout "nombre de la rama" me muevo entre las RAMAS
+git merge "nombre de rama" fusiona las ramas desde la rama principal a donde quiero llevar los cambios
+
+
+
+REMOTO
+git remote -v me muestra a donde esta direccionado
+git rm origin elimina el direccionamiento 

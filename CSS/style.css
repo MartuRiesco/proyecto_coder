@@ -1,0 +1,196 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+@font-face {
+    font-family: "Varentgrotesk" ;
+    src: url(../font/Varentgrotesk.otf);
+}
+@font-face {
+    font-family: "Varentbold" ;
+    src: url(../font/Varentbold.otf);}
+   
+@font-face {
+    font-family:"roboto";
+    src: url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto&display=swap');
+}
+.grilla{
+    display: grid;
+    grid-template-areas: "header header header"
+    "fotos fotos fotos"
+    "footer footer footer";
+    grid-template-rows:120px auto 50px;
+}
+.grid{grid-area: fotos;
+    flex-wrap: wrap;
+ } 
+ .marca{
+grid-area: fotos;
+flex-wrap: wrap; 
+justify-content: space-between;
+margin: 10px;  
+}
+header{grid-area: header;
+    /* height: 150px; */}
+   
+h4, ul{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+ .floresmar, .floresam{
+    /* width: 300px; */
+    height: 450px;
+
+}
+.logo{width: 225px;
+height: 38px;
+margin-top: 30px;
+margin-left: 10px;}
+.fotografia{font-family: "Varentgrotesk";
+font-size: 17px;
+margin-top: 0 ;
+margin-left: 10px;}
+.negrita{font-family: "Varentbold";
+font-size: 30px;}
+ul{  position: absolute;
+top: 30px;
+right: 0;
+
+}
+iframe{width: 700px;
+height: 450px;}
+/* comentario prueba */
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-family: "roboto";
+   font-size: large;
+   
+   
+
+   
+}
+.subrayado{text-decoration: none;
+color: black;
+}
+.anita{display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.fotoana{
+    height: 400px;
+    display: flex;
+    
+}
+   .descripcion{
+    display: flex;
+    /* background-color: rgb(255, 154, 198); */
+    align-items: center;
+    font-size:large;
+    font-family: "roboto";
+    text-align: center justify;
+    /* border: outset 4px black; */
+    width: 62%;
+    /* padding: 5px; */
+   
+   
+
+   }
+   .body1{background-image: url(../Img/5528913.png) ;
+}
+.presentacion{
+    display: flex;
+   flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.trans{ transition: 1s;
+}
+.trans:hover{
+    transform: scale(1.2);
+}
+.bloque{height: 350px;
+padding: 3px;}
+.orden{
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.video{height: 450px;}
+.play{margin-left: 10px;}
+.contacto{margin-left: 10px;}
+.pasillo{ height: 450px;
+width: 330px;}
+.pie{
+    height: 30px;
+    width: 30px;
+}
+
+footer{grid-area: footer;
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px){
+    .orden{display: flex;
+    flex-direction: column;
+}
+.grid{height: auto;
+    width: 450px;}
+ .floresam, .floresmar, .video, .pasillo{
+    height: auto;
+width: 450px;
+ }
+ .presentacion{width: 460px;
+height: auto;}
+.bloque{padding: 0;}
+ .anita{flex-direction: column;
+margin-left: 10px;
+justify-content: space-between;}
+ .fotoana{height: auto;
+width: 460px;}
+.descripcion{margin-top: 10px;
+width: 100%;
+text-align: justify;}
+}
+/* @media screen and (max-width: 768px) {
+    ul li{ display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .fotoana{
+        height: 200px;
+    }
+    .orden{
+        display: grid;
+         grid-template-columns: 730px;  
+         width: 100%;
+        height: auto;  
+    } 
+
+     .video{width: 730px;
+    height: auto;}
+    .floresam{width: 730px;
+        height: auto;}
+    .floresmar{width: 730px;
+        height: auto;}
+    .pasillo{width: 730px;
+        height: auto;} 
+     footer{
+        margin-left: 10px;
+     }
+     .presentacion{display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+     }
+     .marca{grid-template-rows: auto;}
+.bloque {width: 100%;
+    height: auto;
+
+}
+} */
