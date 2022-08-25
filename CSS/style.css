@@ -20,7 +20,7 @@ box-sizing: border-box;}
     "footer footer footer";
     grid-template-rows:120px auto 50px;
 }
-.grid{grid-area: fotos;
+.princi{grid-area: fotos;
     flex-wrap: wrap;
  } 
  .marca{
@@ -132,10 +132,8 @@ width: 330px;}
     height: 30px;
     width: 30px;
 }
-.instagram, .facebook, .google, .twitter{
-    width: 20px;
-    height: 20px;
-}
+.card{ margin: 10px;}
+
 footer{grid-area: footer;
     margin: 10px;
 }
