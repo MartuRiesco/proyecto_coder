@@ -128,7 +128,7 @@ padding: 3px;}
     display: flex;
     justify-content: space-between ;
 }
-
+.mb-3{padding: 10px;}
 .video{height: 450px;}
 .play{margin-left: 10px;}
 .contacto{margin-left: 10px;}
