@@ -27,7 +27,7 @@ box-sizing: border-box;}
 grid-area: fotos;
 flex-wrap: wrap; 
 justify-content: space-between;
-margin: 10px;  
+margin left: 115px;  
 }
 header{grid-area: header;
     /* height: 150px; */}
@@ -128,7 +128,6 @@ padding: 3px;}
     display: flex;
     justify-content: space-between ;
 }
-.marca{margin-left: 50px;}
 .mb-3{padding: 10px;}
 .video{height: 450px;}
 .play{margin-left: 10px;}
