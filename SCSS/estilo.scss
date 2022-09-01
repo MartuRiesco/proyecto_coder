@@ -43,7 +43,6 @@ header{grid-area: header;
     &:hover{
         transform: scale(1.2);
     }}
-    .video{height: 450px;}
     iframe{width: 500px;
         height: 450px;
     }
@@ -51,7 +50,8 @@ header{grid-area: header;
         /* width: 300px; */
         height: 450px;
     
-    }
+    }.pasillo{ height: 450px;
+        width: 330px;}
     .ifru{width: 700px;}
     .fotografia{font-family: "Varentgrotesk";
         font-size: 17px;
@@ -78,6 +78,28 @@ header{grid-area: header;
                 padding: 3px;}
             }
         }
+        .play{margin-left: 10px;
+            .video{height: 450px;}}
+            .card{ margin: 10px;}
+            .body1{background-image: url(../Img/5528913.png) ;
+            
+            .anita{display: $df;
+                justify-content: space-around;
+                margin-bottom: 20px;
+                .fotoana{
+                    height: 400px;
+                    display: $df; }
+                .descripcion{
+                        display: $df;
+                        align-items: center;
+                        font-size:large;
+                        font-family: "roboto";
+                        text-align:  justify;
+                        width: 62%;
+                       }
+           }}
+           .contacto{margin-left: 10px;}
+           .mb-3{padding: 10px;}
         footer{grid-area: footer;
             margin: 10px;
             .pie{
@@ -85,3 +107,4 @@ header{grid-area: header;
                 width: 30px;
             }
         }
+    
