@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Varentgrotesk";
+  src: url(../font/Varentgrotesk.otf);
+  font-family: "Varentbold";
+  src: url(../font/Varentbold.otf);
+  font-family: "roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto&display=swap"); }
+
+header {
+  grid-area: header; }
+  header .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: large; }
+  header .logo {
+    width: 225px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 10px; }
+
+.orden {
+  margin: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .orden .princi {
+    grid-area: fotos;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; }
+
+.trans {
+  transition: 1s; }
+  .trans:hover {
+    transform: scale(1.2); }
+
+.video {
+  height: 450px; }
+
+iframe {
+  width: 500px;
+  height: 450px; }
+
+.ifru {
+  width: 700px; }
+
+.fotografia {
+  font-family: "Varentgrotesk";
+  font-size: 17px;
+  margin-top: 0;
+  margin-left: 10px; }
+
+footer {
+  grid-area: footer;
+  margin: 10px; }
+  footer .pie {
+    height: 30px;
+    width: 30px; }
