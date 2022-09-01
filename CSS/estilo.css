@@ -5,9 +5,13 @@
 
 @font-face {
   font-family: "Varentgrotesk";
-  src: url(../font/Varentgrotesk.otf);
+  src: url(../font/Varentgrotesk.otf); }
+
+@font-face {
   font-family: "Varentbold";
-  src: url(../font/Varentbold.otf);
+  src: url(../font/Varentbold.otf); }
+
+@font-face {
   font-family: "roboto";
   src: url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto&display=swap"); }
 
@@ -47,6 +51,10 @@ iframe {
   width: 500px;
   height: 450px; }
 
+.floresmar, .floresam {
+  /* width: 300px; */
+  height: 450px; }
+
 .ifru {
   width: 700px; }
 
@@ -55,6 +63,28 @@ iframe {
   font-size: 17px;
   margin-top: 0;
   margin-left: 10px; }
+
+.negrita {
+  font-family: "Varentbold";
+  font-size: 30px; }
+
+ul {
+  position: absolute;
+  top: 30px;
+  right: 0; }
+
+.presentacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .presentacion .marca {
+    grid-area: fotos;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 115px; }
+    .presentacion .marca .bloque {
+      height: 350px;
+      padding: 3px; }
 
 footer {
   grid-area: footer;

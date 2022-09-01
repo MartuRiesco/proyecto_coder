@@ -6,8 +6,12 @@ $df: flex;
     @font-face {
         font-family: "Varentgrotesk" ;
         src: url(../font/Varentgrotesk.otf);
+    }
+    @font-face {
         font-family: "Varentbold" ;
-        src: url(../font/Varentbold.otf);
+        src: url(../font/Varentbold.otf);}
+       
+    @font-face {
         font-family:"roboto";
         src: url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto&display=swap');
     }
@@ -43,11 +47,36 @@ header{grid-area: header;
     iframe{width: 500px;
         height: 450px;
     }
+    .floresmar, .floresam{
+        /* width: 300px; */
+        height: 450px;
+    
+    }
     .ifru{width: 700px;}
     .fotografia{font-family: "Varentgrotesk";
         font-size: 17px;
         margin-top: 0 ;
         margin-left: 10px;
+        }
+        .negrita{font-family: "Varentbold";
+            font-size: 30px;}
+            ul{  position: absolute;
+            top: 30px;
+            right: 0;
+            
+            }
+        .presentacion{
+            display: $df;
+           flex-wrap: wrap;
+        justify-content: space-between;
+        .marca{
+            grid-area: fotos;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+            margin-left: 115px;  
+            .bloque{height: 350px;
+                padding: 3px;}
+            }
         }
         footer{grid-area: footer;
             margin: 10px;
