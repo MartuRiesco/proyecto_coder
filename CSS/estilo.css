@@ -57,8 +57,9 @@ iframe {
 
 .floresmar, .floresam {
   height: 450px; }
-  .floresmar .jis, .floresam .jis {
-    width: 700px; }
+
+.jis {
+  width: 700px; }
 
 .pasillo {
   height: 450px;
