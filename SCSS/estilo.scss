@@ -1,5 +1,10 @@
 $dg: grid;
 $df: flex;
+$estilos{
+    height: 450px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;}
@@ -26,16 +31,16 @@ header{grid-area: header;
     {width: 225px;
         height: 38px;
         margin-top: 30px;
-        margin-left: 10px;}
+        margin-left: map-get($estilos, margin );}
     }
     .orden{
-        margin: 10px;
+        margin: map-get($estilos, margin );
         height: 100%;
         display: $df;
         justify-content: space-between ;
         .princi{grid-area: fotos;
             display: $df;
-            flex-wrap: wrap;
+            flex-wrap: map-get($estilos, wrap );
             gap: 10px;
          } 
     }
@@ -45,25 +50,25 @@ header{grid-area: header;
     }
     h2{
         font-family: Arial, Helvetica, sans-serif;
-        margin: 10px;}
+        margin: map-get($estilos, margin );}
     .trans{ transition: 1s;
     &:hover{
         transform: scale(1.2);
     }}
     iframe{width: 500px;
-        height: 450px;
+        height: map-get($estilos, height );
     }
     .floresmar, .floresam{
-        height: 450px;
+        height: map-get($estilos, height );
     }
     .jis{width: 740px;}
-    .pasillo{ height: 450px;
+    .pasillo{ height: map-get($estilos, height );
         width: 330px;}
     .ifru{width: 700px;}
     .fotografia{font-family: "Varentgrotesk";
         font-size: 17px;
         margin-top: 0 ;
-        margin-left: 10px;
+        margin-left: map-get($estilos, margin );
         }
         .negrita{font-family: "Varentbold";
             font-size: 30px;}
@@ -74,20 +79,20 @@ header{grid-area: header;
             }
         .presentacion{
             display: $df;
-           flex-wrap: wrap;
+           flex-wrap: map-get($estilos, wrap );
         justify-content: space-between;
         .marca{
             grid-area: fotos;
-            flex-wrap: wrap; 
+            flex-wrap:  map-get($estilos, wrap );
             justify-content: space-between;
             margin-left: 115px;  
             .bloque{height: 350px;
                 padding: 3px;}
             }
         }
-        .play{margin-left: 10px;
-            .video{height: 450px;}}
-            .card{ margin: 10px;}
+        .play{margin-left: map-get($estilos, margin ;
+            .video{height: map-get($estilos, height );}}
+            .card{ margin: map-get($estilos, margin );}
             .body1{background-image: url(../Img/5528913.png) ;
             
             .anita{display: $df;
@@ -105,10 +110,10 @@ header{grid-area: header;
                         width: 62%;
                        }
            }}
-           .contacto{margin-left: 10px;}
+           .contacto{margin-left: map-get($estilos, margin );}
            .mb-3{padding: 10px;}
         footer{grid-area: footer;
-            margin: 10px;
+            margin: map-get($estilos, margin );
             .pie{
                 height: 30px;
                 width: 30px;
