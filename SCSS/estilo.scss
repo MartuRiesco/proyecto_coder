@@ -165,3 +165,28 @@ header{grid-area: header;
     width: 100%;
     text-align: justify;}
     }
+    @media screen and (max-width: 1024px) {
+        .navbar-nav{background-color: white;}
+        .orden{display: $df;
+        flex-direction: column;
+    }
+    .grid{height: auto;
+        width: 1010px;}
+     .floresam, .floresmar, .pasillo{
+        height: auto;
+    width: 1010px;
+     }
+     .video{width: 1010px;}
+     .presentacion{width: 1010px;
+    height: auto;
+.marca{margin-left: 10px;}}
+    .bloque{padding: 0;}
+     .anita{flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between;}
+     .fotoana{height: auto;
+    width:1010px ;}
+    .descripcion{margin-top: 10px;
+    width: 100%;
+    text-align: justify;}
+    }
