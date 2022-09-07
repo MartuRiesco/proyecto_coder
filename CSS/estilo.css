@@ -36,7 +36,6 @@ header {
   .orden .princi {
     grid-area: fotos;
     display: flex;
-    flex-wrap: wrap;
     gap: 10px; }
 
 h4, ul {
@@ -85,11 +84,9 @@ ul {
 
 .presentacion {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between; }
   .presentacion .marca {
     grid-area: fotos;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 115px; }
     .presentacion .marca .bloque {
@@ -106,20 +103,21 @@ ul {
 
 .body1 {
   background-image: url(../Img/5528913.png); }
-  .body1 .anita {
+
+.anita {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px; }
+  .anita .fotoana {
+    height: 400px;
+    display: flex; }
+  .anita .descripcion {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px; }
-    .body1 .anita .fotoana {
-      height: 400px;
-      display: flex; }
-    .body1 .anita .descripcion {
-      display: flex;
-      align-items: center;
-      font-size: large;
-      font-family: "roboto";
-      text-align: justify;
-      width: 62%; }
+    align-items: center;
+    font-size: large;
+    font-family: "roboto";
+    text-align: justify;
+    width: 62%; }
 
 .contacto {
   margin-left: 10px; }
@@ -133,3 +131,49 @@ footer {
   footer .pie {
     height: 30px;
     width: 30px; }
+
+.buton, .buton2, .buton3 {
+  background-color: yellow;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 5px; }
+
+.buton2 {
+  background-color: green; }
+
+.buton3 {
+  background-color: red; }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color: white; }
+  .orden {
+    display: flex;
+    flex-direction: column; }
+  .grid {
+    height: auto;
+    width: 580px; }
+  .floresam, .floresmar, .video, .pasillo {
+    height: auto;
+    width: 580px; }
+  .presentacion {
+    width: 580px;
+    height: auto; }
+  .bloque {
+    padding: 0; }
+  .anita {
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between; }
+  .fotoana {
+    height: auto;
+    width: 580px; }
+  .descripcion {
+    margin-top: 10px;
+    width: 100%;
+    text-align: justify; } }
