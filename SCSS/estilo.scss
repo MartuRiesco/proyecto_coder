@@ -1,12 +1,12 @@
 $dg: grid;
 $df: flex;
+$fw: wrap;
 $estilos: (
     height: 450px,
-    flex-wrap: wrap,
-   margin: 10px
+   margin: 10px,
     );
 @mixin display-flex {display: $df;
-    flex-wrap: map-get($estilos, wrap );
+    flex-wrap:wrap;
     justify-content: space-between;
     
 }
@@ -45,7 +45,7 @@ header{grid-area: header;
         justify-content: space-between ;
         .princi{grid-area: fotos;
             display: $df;
-            flex-wrap: map-get($estilos, wrap );
+           flex-wrap: $fw;
             gap: 10px;
          } 
     }
@@ -88,7 +88,7 @@ header{grid-area: header;
         .marca{
 
             grid-area: fotos;
-            flex-wrap:  map-get($estilos, wrap );
+            flex-wrap:  $fw;
             justify-content: space-between;
             margin-left: 115px;  
             .bloque{height: 350px;
@@ -130,9 +130,6 @@ header{grid-area: header;
             color:black;
             border-radius:10px;
             border:1px solid black;
-            display: $df;
-            flex-direction: row;
-
             margin: map-get($estilos, margin ); 
         padding: 5px;}
     .buton2{

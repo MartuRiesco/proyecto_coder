@@ -36,6 +36,7 @@ header {
   .orden .princi {
     grid-area: fotos;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px; }
 
 h4, ul {
@@ -84,9 +85,11 @@ ul {
 
 .presentacion {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
   .presentacion .marca {
     grid-area: fotos;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 115px; }
     .presentacion .marca .bloque {
@@ -138,8 +141,6 @@ footer {
   color: black;
   border-radius: 10px;
   border: 1px solid black;
-  display: flex;
-  flex-direction: row;
   margin: 10px;
   padding: 5px; }
 
