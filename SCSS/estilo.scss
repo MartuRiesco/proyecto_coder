@@ -141,18 +141,20 @@ header{grid-area: header;
         background-color: red;
     }
     @media screen and (max-width: 600px){
-        .navbar{background-color: white;}
+        .navbar-nav{background-color: white;}
         .orden{display: $df;
         flex-direction: column;
     }
     .grid{height: auto;
         width: 580px;}
-     .floresam, .floresmar, .video, .pasillo{
+     .floresam, .floresmar, .pasillo{
         height: auto;
     width: 580px;
      }
+     .video{width: 580px;}
      .presentacion{width: 580px;
-    height: auto;}
+    height: auto;
+.marca{margin-left: 10px;}}
     .bloque{padding: 0;}
      .anita{flex-direction: column;
     margin-left: 10px;

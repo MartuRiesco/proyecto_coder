@@ -151,7 +151,7 @@ footer {
   background-color: red; }
 
 @media screen and (max-width: 600px) {
-  .navbar {
+  .navbar-nav {
     background-color: white; }
   .orden {
     display: flex;
@@ -159,12 +159,16 @@ footer {
   .grid {
     height: auto;
     width: 580px; }
-  .floresam, .floresmar, .video, .pasillo {
+  .floresam, .floresmar, .pasillo {
     height: auto;
+    width: 580px; }
+  .video {
     width: 580px; }
   .presentacion {
     width: 580px;
     height: auto; }
+    .presentacion .marca {
+      margin-left: 10px; }
   .bloque {
     padding: 0; }
   .anita {
