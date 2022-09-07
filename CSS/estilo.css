@@ -187,28 +187,28 @@ footer {
     flex-direction: column; }
   .grid {
     height: auto;
-    width: 760px; }
+    width: 750px; }
   .floresam, .floresmar, .pasillo {
     height: auto;
-    width: 760px; }
+    width: 750px; }
   .video {
-    width: 760px; }
+    width: 750px; }
   .presentacion {
-    width: 760px;
+    width: 750px;
     height: auto; }
     .presentacion .marca {
       margin-left: 10px; }
       .presentacion .marca .bloque {
         padding: 3px;
         height: auto;
-        width: 760px; }
+        width: 750px; }
   .anita {
     flex-direction: column;
     margin-left: 10px;
     justify-content: space-between; }
   .fotoana {
     height: auto;
-    width: 760px; }
+    width: 750px; }
   .descripcion {
     margin-top: 10px;
     width: 100%;

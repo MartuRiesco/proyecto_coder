@@ -1,0 +1,5 @@
+Agregue las etiquetas meta description en todas las paginas y escribi su respectivo contenido
+Agregue las etiquetas meta keywords en todas las paginas y escribi las palabras claves de cada pagina
+Cambie los tituos de cada pagina por uno mas descriptivo
+Agregue los alts a cada imagen para que en caso de no aparecer, se lea lo que debia ser cada foto
+En el footer, estan los iconos con los links a las respectivas redes sociales
