@@ -196,10 +196,10 @@ footer {
     height: auto; }
     .presentacion .marca {
       margin-left: 10px; }
-  .bloque {
-    padding: 0;
-    height: auto;
-    width: 760px; }
+      .presentacion .marca .bloque {
+        padding: 0;
+        height: auto;
+        width: 760px; }
   .anita {
     flex-direction: column;
     margin-left: 10px;
