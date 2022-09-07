@@ -150,25 +150,19 @@ footer {
 .buton3 {
   background-color: red; }
 
-@media screen and (max-width: 600px) {
-  .navbar-nav {
-    background-color: white; }
+@media screen and (max-width: 480px) {
   .orden {
     display: flex;
     flex-direction: column; }
   .grid {
     height: auto;
-    width: 580px; }
-  .floresam, .floresmar, .pasillo {
+    width: 450px; }
+  .floresam, .floresmar, .video, .pasillo {
     height: auto;
-    width: 580px; }
-  .video {
-    width: 580px; }
+    width: 450px; }
   .presentacion {
-    width: 580px;
+    width: 460px;
     height: auto; }
-    .presentacion .marca {
-      margin-left: 10px; }
   .bloque {
     padding: 0; }
   .anita {
@@ -177,13 +171,13 @@ footer {
     justify-content: space-between; }
   .fotoana {
     height: auto;
-    width: 580px; }
+    width: 460px; }
   .descripcion {
     margin-top: 10px;
     width: 100%;
     text-align: justify; } }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .navbar-nav {
     background-color: white; }
   .orden {
@@ -191,14 +185,14 @@ footer {
     flex-direction: column; }
   .grid {
     height: auto;
-    width: 1010px; }
+    width: 760px; }
   .floresam, .floresmar, .pasillo {
     height: auto;
-    width: 1010px; }
+    width: 760px; }
   .video {
-    width: 1010px; }
+    width: 760px; }
   .presentacion {
-    width: 1010px;
+    width: 760px;
     height: auto; }
     .presentacion .marca {
       margin-left: 10px; }
@@ -210,7 +204,7 @@ footer {
     justify-content: space-between; }
   .fotoana {
     height: auto;
-    width: 1010px; }
+    width: 760px; }
   .descripcion {
     margin-top: 10px;
     width: 100%;
