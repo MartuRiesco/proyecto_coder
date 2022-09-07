@@ -146,13 +146,14 @@ header{grid-area: header;
     }
     .grid{height: auto;
         width: 450px;}
-     .floresam, .floresmar, .video, .pasillo{
+     .floresam, .floresmar, .pasillo{
         height: auto;
     width: 450px;
      }
+     .video{ width: 450px;}
      .presentacion{width: 460px;
     height: auto;}
-    .bloque{padding: 0;}
+    .bloque{padding: 3px;}
      .anita{flex-direction: column;
     margin-left: 10px;
     justify-content: space-between;}
@@ -162,7 +163,7 @@ header{grid-area: header;
     width: 100%;
     text-align: justify;}
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) {
         .navbar-nav{background-color: white;}
         .orden{display: $df;
         flex-direction: column;
