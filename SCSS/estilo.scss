@@ -1,9 +1,14 @@
 $dg: grid;
 $df: flex;
-$estilos{
-    height: 450px;
-    flex-wrap: wrap;
-    margin: 10px;
+$estilos: (
+    "height": 450px;
+   " flex-wrap": wrap;
+   " margin": 10px;
+    );
+@mixin display-flex {display: $df;
+    flex-wrap: map-get($estilos, wrap );
+    justify-content: space-between;
+    
 }
 *{margin: 0;
     padding: 0;
@@ -55,6 +60,7 @@ header{grid-area: header;
     &:hover{
         transform: scale(1.2);
     }}
+    
     iframe{width: 500px;
         height: map-get($estilos, height );
     }
@@ -78,22 +84,21 @@ header{grid-area: header;
             
             }
         .presentacion{
-            display: $df;
-           flex-wrap: map-get($estilos, wrap );
-        justify-content: space-between;
+          @include display-flex()
         .marca{
+
             grid-area: fotos;
             flex-wrap:  map-get($estilos, wrap );
             justify-content: space-between;
             margin-left: 115px;  
             .bloque{height: 350px;
                 padding: 3px;}
-            }
-        }
-        .play{margin-left: map-get($estilos, margin ;
+            
+        }}
+        .play{margin-left: map-get($estilos, margin) ;
             .video{height: map-get($estilos, height );}}
             .card{ margin: map-get($estilos, margin );}
-            .body1{background-image: url(../Img/5528913.png) ;
+            .body1{background-image: url(../Img/5528913.png) ;}
             
             .anita{display: $df;
                 justify-content: space-around;
@@ -109,7 +114,7 @@ header{grid-area: header;
                         text-align:  justify;
                         width: 62%;
                        }
-           }}
+           }
            .contacto{margin-left: map-get($estilos, margin );}
            .mb-3{padding: 10px;}
         footer{grid-area: footer;
@@ -118,5 +123,12 @@ header{grid-area: header;
                 height: 30px;
                 width: 30px;
             }
+        }
+        .buton
+        {background-color:green;
+            text-align:center;
+            color:black;
+            border-radius:20px;
+            border:2px solid black;
         }
     
