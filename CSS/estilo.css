@@ -151,6 +151,8 @@ footer {
   background-color: red; }
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
+  .navbar-nav {
+    background-color: white; }
   .orden {
     display: flex;
     flex-direction: column; }
@@ -165,8 +167,12 @@ footer {
   .presentacion {
     width: 380px;
     height: auto; }
-  .bloque {
-    padding: 3px; }
+    .presentacion .marca {
+      margin-left: 10px; }
+      .presentacion .marca .bloque {
+        padding: 3px;
+        height: auto;
+        width: 380px; }
   .anita {
     flex-direction: column;
     margin-left: 10px;
@@ -180,6 +186,8 @@ footer {
     text-align: justify; } }
 
 @media screen and (min-width: 400px) and (max-width: 480px) {
+  .navbar-nav {
+    background-color: white; }
   .orden {
     display: flex;
     flex-direction: column; }
