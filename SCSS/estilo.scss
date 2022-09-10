@@ -150,11 +150,12 @@ header{grid-area: header;
          .floresam, .floresmar, .pasillo{
             height: auto;
         width: 380px;
+
          }
          .video{ width: 380px;}
          .presentacion{width: 380px;
         height: auto;}
-        .bloque{padding: 3px;}
+        .bloque{padding: 3px ;}
          .anita{flex-direction: column;
         margin-left: 10px;
         justify-content: space-between;}
