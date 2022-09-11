@@ -51,6 +51,9 @@ h2 {
   .trans:hover {
     transform: scale(1.2); }
 
+.nav-link {
+  text-align: center; }
+
 iframe {
   width: 500px;
   height: 450px; }
@@ -168,14 +171,14 @@ footer {
     width: 380px;
     height: auto; }
     .presentacion .marca {
-      margin-left: 10px; }
+      margin-left: 5px; }
       .presentacion .marca .bloque {
         padding: 3px;
         height: auto;
         width: 380px; }
   .anita {
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 5px;
     justify-content: space-between; }
   .fotoana {
     height: auto;
@@ -206,13 +209,13 @@ footer {
     padding: 3px; }
   .anita {
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 5px;
     justify-content: space-between; }
   .fotoana {
     height: auto;
     width: 460px; }
   .descripcion {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 100%;
     text-align: justify; } }
 

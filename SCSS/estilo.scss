@@ -49,7 +49,7 @@ header{grid-area: header;
             gap: 10px;
          } 
     }
-    h4, ul{
+    h4, ul{ 
 
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
@@ -60,7 +60,9 @@ header{grid-area: header;
     &:hover{
         transform: scale(1.2);
     }}
-    
+    .nav-link{
+        text-align: center;
+    }
     iframe{width: 500px;
         height: map-get($estilos, height );
     }
@@ -155,12 +157,12 @@ header{grid-area: header;
      .video{width:  380px;}
      .presentacion{width:  380px;
     height: auto;
-.marca{margin-left: 10px;
+.marca{margin-left: 5px;
     .bloque{padding: 3px;
     height: auto;
 width: 380px;}}}
      .anita{flex-direction: column;
-    margin-left: 10px;
+    margin-left: 5px;
     justify-content: space-between;}
      .fotoana{height: auto;
     width: 380px ;}
@@ -186,11 +188,11 @@ width: 380px;}}}
     height: auto;}
     .bloque{padding: 3px;}
      .anita{flex-direction: column;
-    margin-left: 10px;
+    margin-left: 5px;
     justify-content: space-between;}
      .fotoana{height: auto;
     width: 460px;}
-    .descripcion{margin-top: 10px;
+    .descripcion{margin-top: 5px;
     width: 100%;
     text-align: justify;}
     }
