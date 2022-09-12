@@ -52,7 +52,8 @@ h2 {
     transform: scale(1.2); }
 
 .nav-link {
-  text-align: center; }
+  text-align: center;
+  width: max-content; }
 
 iframe {
   width: 500px;

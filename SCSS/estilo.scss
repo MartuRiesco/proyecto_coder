@@ -62,6 +62,8 @@ header{grid-area: header;
     }}
     .nav-link{
         text-align: center;
+        width: max-content;
+
     }
     iframe{width: 500px;
         height: map-get($estilos, height );
