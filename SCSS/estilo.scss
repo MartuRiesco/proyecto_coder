@@ -27,13 +27,13 @@ $estilos: (
     }
    
 header{grid-area: header;
-    background-color: black;
+    
 .navbar 
 { position: absolute;
     top: 0;
     right: 0;
     font-size: large;
-color: white;}
+}
 .logo
     {width: 225px;
         height: 38px;
@@ -51,21 +51,19 @@ color: white;}
             gap: 10px;
          } 
     }
-    body{
-        background-color: black;
-    }
+
     h4, ul{ 
-color: white;
+
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    h2{color: white;
+    h2{
         font-family: Arial, Helvetica, sans-serif;
         margin: map-get($estilos, margin );}
     .trans{ transition: 1s;
     &:hover{
         transform: scale(1.2);
     }}
-    .nav-link{color: white;
+    .nav-link{
         text-align: center;
         width: max-content;
 
@@ -83,12 +81,12 @@ color: white;
     .fotografia{font-family: "Varentgrotesk";
         font-size: 17px;
         margin-top: 0 ;
-        color: white;
+        
         margin-left: map-get($estilos, margin );
         }
         .negrita{font-family: "Varentbold";
             font-size: 30px;
-        color: white;}
+       }
             ul{  position: absolute;
             top: 30px;
             right: 0;
@@ -121,7 +119,7 @@ color: white;
                         display: $df;
                         align-items: center;
                         font-size:large;
-                        color: white;
+                        
                         font-family: "roboto";
                         text-align:  justify;
                         width: 62%;
@@ -135,9 +133,13 @@ color: white;
                 height: 30px;
                 width: 30px;
             }
-            .fut{color: white;}
-            .final{color: white;
-            text-align: left;}
+            .fut{font-size: small;
+            display: inline;position: absolute;
+        left: 0 ;}
+            .final{font-size: small;
+           position: absolute;
+           right: 0 ;
+        display: inline;}
         }
         .buton
         {background-color: yellow;
