@@ -137,7 +137,8 @@ footer {
   margin: 10px; }
   footer .pie {
     height: 30px;
-    width: 30px; }
+    width: 30px;
+    display: inline; }
   footer .fut {
     font-size: small;
     display: inline;
