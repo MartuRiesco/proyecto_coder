@@ -15,6 +15,11 @@
   font-family: "roboto";
   src: url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto&display=swap"); }
 
+.grilla {
+  display: grid;
+  grid-template-areas: "header header header" "fotos fotos fotos" "footer footer footer";
+  grid-template-rows: 120px auto 50px; }
+
 header {
   grid-area: header; }
   header .navbar {
@@ -134,11 +139,11 @@ ul {
 
 footer {
   grid-area: footer;
-  margin: 10px; }
+  margin: 10px;
+  position: relative; }
   footer .pie {
     height: 30px;
-    width: 30px;
-    display: inline; }
+    width: 30px; }
   footer .fut {
     font-size: small;
     display: inline;

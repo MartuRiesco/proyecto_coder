@@ -26,6 +26,13 @@ $estilos: (
         src: url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto&display=swap');
     }
    
+    .grilla{
+        display: grid;
+        grid-template-areas: "header header header"
+        "fotos fotos fotos"
+        "footer footer footer";
+        grid-template-rows:120px auto 50px;
+    }
 header{grid-area: header;
     
 .navbar 
@@ -129,18 +136,22 @@ header{grid-area: header;
            .mb-3{padding: 10px;}
         footer{grid-area: footer;
             margin: map-get($estilos, margin );
+            position: relative;
             .pie{
                 height: 30px;
                 width: 30px;
-                display: inline;
             }
-            .fut{font-size: small;
-            display: inline;position: absolute;
-        left: 0 ;}
-            .final{font-size: small;
-           position: absolute;
-           right: 0 ;
-        display: inline;}
+            .fut{
+                font-size: small;
+                display: inline;
+                position: absolute;
+                left: 0 ; }
+        
+            .final{
+                font-size: small;
+                position: absolute;
+                right: 0 ;
+                display: inline;}
         }
         .buton
         {background-color: yellow;
