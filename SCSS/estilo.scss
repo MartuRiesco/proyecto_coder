@@ -143,13 +143,13 @@ header{grid-area: header;
             }
             .fut{
                 font-size: small;
-                position: absolute;
-                left: 0 ; }
+            }
         
             .final{
                 font-size: small;
                 position: absolute;
                 right: 0 ;
+                top: 0;
                 display: inline;}
         }
         .buton

@@ -145,13 +145,12 @@ footer {
     height: 30px;
     width: 30px; }
   footer .fut {
-    font-size: small;
-    position: absolute;
-    left: 0; }
+    font-size: small; }
   footer .final {
     font-size: small;
     position: absolute;
     right: 0;
+    top: 0;
     display: inline; }
 
 .buton, .buton2, .buton3 {
